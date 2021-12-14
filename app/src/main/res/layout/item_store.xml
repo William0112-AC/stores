@@ -9,16 +9,25 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
 
 <ImageView
    android:id="@+id/imgPhoto"
     android:layout_width="0dp"
     android:layout_height="0dp"
     android:contentDescription="@string/description_img_photo"
-    app:layout_constraintStart_toStar0f="parent"
-    app:layout_constraintEnd_toEnd0f="parent"
-    app:layout_constraintTop_toTop0f="parent"
-    app:layout_constraintBottom_toBottom0f="parent"
+    android:background="@android:color/darker_gray"
+    app:layout_constraintStart_toStarOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"/>
+<TextView
+    android:id="@+id/tvName"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constrainStart_toStarOf="parent"
+    app:layout_constrainEnd_toEndOf="parent"
+    app:layout_contrainBottom_toBottomOf="parent"/>
+
 </androidx.contraintlayout.widget.CostrainLayout>
 </com.google.android.material.card.MaterialCardView>
