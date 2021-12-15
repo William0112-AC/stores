@@ -4,7 +4,7 @@ package com.cursosant.android.stores
  * Proyecto: Stores
  *
  *
- * Daniel Fernandez Guarneros 4°A
+ * ;w
  *
  * Desarrollo de Software Multiplataforma
  *
