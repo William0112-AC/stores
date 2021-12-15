@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity(), OnClickListener {
             adapter = mAdapter
         }
     }
-
     private fun getStores(){
         doAsync {
             val stores = StoreApplication.database.storeDao().getAllStores()
