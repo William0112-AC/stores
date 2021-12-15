@@ -25,6 +25,8 @@
     android:id="@+id/tvName"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+   android:background=""
+    tools:text="Nombre de tienda"
     app:layout_constrainStart_toStarOf="parent"
     app:layout_constrainEnd_toEndOf="parent"
     app:layout_contrainBottom_toBottomOf="parent"/>
