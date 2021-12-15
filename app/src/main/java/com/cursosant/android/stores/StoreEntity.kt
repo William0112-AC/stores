@@ -5,9 +5,6 @@ import androidx.room.PrimaryKey
 
 /****
 
- * Desarrollo de Software Multiplataforma
- *
- * Diseño para Apps
  ***/
 @Entity(tableName = "StoreEntity")
 data class StoreEntity(@PrimaryKey(autoGenerate = true) var id: Long = 0,

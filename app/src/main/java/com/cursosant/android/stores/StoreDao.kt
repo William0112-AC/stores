@@ -3,8 +3,9 @@ package com.cursosant.android.stores
 import androidx.room.*
 
 /****
- * Proyecto: Stores
-  *
+
+ * Desarrollo de Software Multiplataforma
+ *
  * Diseño para Apps
  ***/
 @Dao

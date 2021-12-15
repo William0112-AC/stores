@@ -2,7 +2,6 @@ package com.cursosant.android.stores
 
 /****
  * Proyecto: Stores
- *
 
  ***/
 data class Store(var id: Long = 0,

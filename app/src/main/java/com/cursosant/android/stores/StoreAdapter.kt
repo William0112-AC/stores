@@ -8,6 +8,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.cursosant.android.stores.databinding.ItemStoreBinding
 
 /****
+ * Proyecto: Stores
+ *
+
+
+ *
+ * Desarrollo de Software Multiplataforma
+ *
  * Diseño para Apps
  ***/
 class StoreAdapter(private var stores: MutableList<StoreEntity>, private var listener: OnClickListener) :
@@ -36,6 +43,11 @@ class StoreAdapter(private var stores: MutableList<StoreEntity>, private var lis
     override fun getItemCount(): Int = stores.size
     fun add(storeEntity: StoreEntity) {
         stores.add(storeEntity)
+        notifyDataSetChanged()
+    }
+
+    fun setStores(stores: MutableList<StoreEntity>) {
+        this.stores = stores
         notifyDataSetChanged()
     }
 
