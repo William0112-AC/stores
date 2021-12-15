@@ -12,9 +12,7 @@ import com.cursosant.android.stores.databinding.ItemStoreBinding
  *
 
 
- *
- * Desarrollo de Software Multiplataforma
- *
+
  * Diseño para Apps
  ***/
 class StoreAdapter(private var stores: MutableList<StoreEntity>, private var listener: OnClickListener) :
