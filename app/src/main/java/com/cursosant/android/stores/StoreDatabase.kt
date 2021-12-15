@@ -6,8 +6,7 @@ import androidx.room.RoomDatabase
 /****
  * Proyecto: Stores
  *
- *
- *
+
  * Desarrollo de Software Multiplataforma
  *
  * Diseño para Apps

@@ -8,10 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.cursosant.android.stores.databinding.ItemStoreBinding
 
 /****
- * Proyecto: Stores
- *
-
- *
  * Diseño para Apps
  ***/
 class StoreAdapter(private var stores: MutableList<StoreEntity>, private var listener: OnClickListener) :

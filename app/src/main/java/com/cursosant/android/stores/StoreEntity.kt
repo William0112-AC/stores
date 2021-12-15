@@ -4,10 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 /****
- * Proyecto: Stores
- *
- *
- *
+
  * Desarrollo de Software Multiplataforma
  *
  * Diseño para Apps

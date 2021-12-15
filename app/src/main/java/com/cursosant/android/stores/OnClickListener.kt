@@ -5,7 +5,6 @@ package com.cursosant.android.stores
  *
  *
 
- *
  * Desarrollo de Software Multiplataforma
  *
  * Diseño para Apps

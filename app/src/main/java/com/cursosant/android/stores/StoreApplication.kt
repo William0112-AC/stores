@@ -4,8 +4,6 @@ import android.app.Application
 import androidx.room.Room
 
 /****
- * Proyecto: Stores
- *
 
  * Desarrollo de Software Multiplataforma
  *

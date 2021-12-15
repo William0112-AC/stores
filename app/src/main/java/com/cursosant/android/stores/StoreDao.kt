@@ -4,12 +4,7 @@ import androidx.room.*
 
 /****
  * Proyecto: Stores
- *
- *
- * Daniel Fernandez Guarneros 4°A
- *
- * Desarrollo de Software Multiplataforma
- *
+  *
  * Diseño para Apps
  ***/
 @Dao
